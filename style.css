@@ -4,3 +4,18 @@ padding: 0;
 box-sizing: border-box;
 
 }
+
+.quadrados{
+    width: 100vw;
+    height: 200px;
+    background-color: beige;
+
+}
+
+.circulos{
+
+    width: 100vw;
+    height: 200px;
+    background-color: azure;
+
+}

@@ -1,5 +1,5 @@
 *{
-margin: 0;
+margin: 10;
 padding: 0;
 box-sizing: border-box;
 
@@ -8,14 +8,40 @@ box-sizing: border-box;
 .quadrados{
     width: 100vw;
     height: 200px;
-    background-color: beige;
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
 
 }
 
+.quadrados div{
+
+    width: 100px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+
 .circulos{
 
-    width: 100vw;
+    width: 100%;
+    height: 250px;
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+    
+}
+
+.circulos div {
+    width: 200px;
     height: 200px;
-    background-color: azure;
+    background-color: black;
+    border-radius: 50%;
 
 }
